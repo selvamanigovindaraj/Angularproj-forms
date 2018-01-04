@@ -1,0 +1,104 @@
+body {
+    background: url('../img/bg.png') no-repeat left top;
+    background-size: cover;
+    color: #fff;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:visited {
+    color: #333;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.navbar .navbar-nav>.active,
+.navbar .navbar-nav>.active a {
+    background-color: #d1bbe7;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav>.active a:hover,
+.navbar .navbar-nav>.active a:visited,
+.navbar .navbar-nav>.active a:active,
+.navbar .navbar-nav>.active a:link {
+    background: none;
+    color: #942cb1;
+}
+
+.navbar .navbar-brand img {
+    display: inline-block;
+}
+
+.navbar {
+    background: #d4d9e6;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#d4d9e6, #e4e1f4);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d4d9e6, #e4e1f4);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d4d9e6, #e4e1f4);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d4d9e6, #e4e1f4);
+    /* Standard syntax */
+    padding: 0;
+    box-shadow: 0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15);
+}
+
+.navbar .navbar-nav>li>a,
+.navbar .navbar-nav>li>a:hover,
+.navbar .navbar-nav>li>a:visited,
+.navbar .navbar-nav>li>a:active,
+.navbar .navbar-nav>li>a:link {
+    color: #942cb1;
+    font-size: 16px;
+}
+
+.navbar .navbar-nav>li>a i {
+    color: #b3a1fe;
+}
+
+.btn.btn-just-icon i,
+.navbar .navbar-nav>li>a.btn.btn-just-icon i {
+    color: #b3a1fe;
+    font-size: 22px;
+}
+
+.navbar .navbar-nav>li {
+    padding: 10px 20px;
+    border-top: 10px solid #d4d9e6;
+}
+
+.navbar .navbar-nav>li.dropdown {
+    padding: 10px;
+}
+
+.navbar .navbar-nav .active {
+    border-top: 10px solid #942cb1;
+}
+
+.btn.btn-white {
+    color: #942cb1;
+    text-transform: none;
+    font-size: 18px;
+}
+h3.title { color:#fff; }
+
+@media (max-width: 768px)
+{
+    .navbar .navbar-nav>li {
+        border-top: 0 solid #d4d9e6;
+    }
+    .navbar .navbar-toggle .icon-bar{
+        color: #942cb1;
+    }
+    .navbar .navbar-brand img{
+        width:30px;
+        height: auto;
+    }
+    .navbar-header .navbar-toggle {
+        margin-top:15px;
+    }
+}
